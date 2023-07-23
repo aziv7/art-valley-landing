@@ -3,7 +3,7 @@ import React, { memo } from 'react';
 const Header = () => {
   return (
     <div
-      className='fixed w-full p-4 flex justify-between
+      className='fixed text-xl w-full p-4 flex justify-between
 items-center uppercase text-black  font-normal
 mix-blend-difference z-10'>
       <div>Home</div>
