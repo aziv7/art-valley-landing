@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div
       className='fixed text-xl w-full p-4 flex justify-between
-items-center uppercase text-black  font-normal
+items-center uppercase text-white  font-normal
 mix-blend-difference z-10'>
       <div>Home</div>
       <div>Art gallery</div>

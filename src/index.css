@@ -3,9 +3,34 @@
 @tailwind components;
 @tailwind utilities;
 
-
-*{
+* {
   font-family: 'Abril Fatface', 'cursive';
   font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.img-overlay {
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.item-wrapper:hover .img-overlay {
+  top: -100%;
+}
+
+.nimg {
+  transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.item-wrapper:hover .nimg {
+  transform: scale(1);
+}
+
+.item-copy {
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.place {
+  line-height: 120%;
 }

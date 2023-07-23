@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 const PictureCover = ({ title, subtitle, img }) => {
   return (
-    <div className='relative w-[25vw] h-screen overflow-hidden'>
+    <div className='relative cursor-pointer w-[25vw] h-screen overflow-hidden'>
       <div className='item-wrapper'>
         <img
           className='absolute w-full h-full object-cover scale-150 nimg'
