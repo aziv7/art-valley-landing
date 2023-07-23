@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 const Header = () => {
-  return <div>Header</div>;
+  return (
+    <div
+      className='fixed w-full p-4 flex justify-between
+items-center uppercase text-black  font-normal
+mix-blend-difference z-10'>
+      <div>Home</div>
+      <div>Art gallery</div>
+      <div>Menu</div>
+    </div>
+  );
 };
 
-export default Header;
+export default memo(Header);
