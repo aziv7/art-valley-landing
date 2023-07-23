@@ -30,7 +30,12 @@ const Hero = () => {
   return (
     <div className='w-full h-screen flex'>
       {items.map((item) => (
-        <PictureCover key={item?.title} />
+        <PictureCover
+          key={item?.title}
+          title={item?.title}
+          subtitle={item?.subtitle}
+          img={item?.img}
+        />
       ))}
     </div>
   );
